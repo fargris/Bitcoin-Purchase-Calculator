@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>비트코인 구매 계산기</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google AdSense 스크립트 링크를 추가합니다. -->
+    <!-- 아래 코드는 예시이며, 실제로는 여러분의 AdSense 코드로 바꿔야 합니다. -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+             google_ad_client: "ca-pub-XXXXXXXXXXXXXXXX",
+             enable_page_level_ads: true
+         });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1 lang="ko">비트코인 구매 계산기</h1>
+        <h1 lang="en">Bitcoin Purchase Calculator</h1>
+
+        <div class="input-group">
+            <label for="purchase-amount" lang="ko">구매 금액: </label>
+            <label for="purchase-amount" lang="en">Purchase Amount: </label>
+            <input type="number" id="purchase-amount" step="any" placeholder="구매할 금액을 입력하세요">
+        </div>
+
+        <select id="currency-selector" lang="ko">
+            <option value="usd" lang="ko">달러/Dollars($)</option>
+            <option value="krw" lang="ko">원화/Wons(₩)</option>
+        </select>
+
+        <button onclick="calculateBitcoin()" lang="ko">계산 / Calculate</button>
+
+        <div class="result">
+            <div id="bitcoin" class="crypto-info">
+                <h2 lang="ko">비트코인 (BTC) 실시간 가격: $<span id="btc-price">0.00</span></h2>
+                <h2 lang="ko">구매 가능한 비트코인 수량: <span id="bitcoin-quantity">0.00</span> BTC</h2>
+            </div>
+            <p id="random-advice" lang="ko">비트코인을 팔아야 하는 최적의 시간: <span id="random-time"></span></p>
+        </div>
+
+        <!-- 광고를 넣을 위치 예시 -->
+        <div id="ad-container">
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+                data-ad-slot="1234567890"
+                data-ad-format="auto"></ins>
+        </div>
+    </div>
+
+    <script>
+        // 여기에 나머지 스크립트 코드 추가...
+        async function fetchBitcoinPrice(currency) {
+            // ...
+        }
+
+        async function updateRealTimePrice() {
+            // ...
+        }
+
+        function calculateBitcoin() {
+            // ...
+        }
+
+        function generateRandomTime() {
+            // ...
+        }
+
+        // 초기화할 때 한 번 호출하여 실시간 가격 업데이트
+        updateRealTimePrice();
+    </script>
+</body>
+</html>
