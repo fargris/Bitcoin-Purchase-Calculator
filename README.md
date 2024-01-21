@@ -1,1 +1,1 @@
-# Bitcoin-Purchase-Calculator
+# BitcoinPurchaseCalculator
